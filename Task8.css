@@ -1,0 +1,174 @@
+/* Main Heading container style */
+
+#main-container {
+    background-image: url('i1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    background: none;
+    color: white;
+}
+
+#start-button {
+    background-color: #524743;
+    border-color: #524743;
+    color: #f9fdff;
+    margin: 2%;
+}
+
+.btn-group {
+    padding: 3%;
+}
+
+.glyphicon.glyphicon-menu-down {
+    font-size: 50px;
+    color: white;
+    padding: 2%;
+}
+
+/* Navigation bar style */
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.navbar-toggle {
+    background: none;
+    border: none;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #524743 !important;
+    background-color: #fff !important;
+}
+
+/* Description style */
+
+#info {
+    padding: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+@media screen and (min-width: 600px) {
+    #info-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #info-text {
+        font-size: 15px;
+    }
+}
+
+/* Main image */
+
+@media screen and (min-width: 600px) {
+    img {
+        display: block;
+        padding: 0 0 0 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        display: block;
+        padding: 20% 0 0 5%;
+    }
+}
+
+/*social media buttons style*/
+
+#social-media {
+    padding-right: 0%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+/* stats section style */
+
+#stats {
+    padding: 1% 20% 1% 20%;
+}
+
+/* contact section style */
+
+#subscribe {
+    background-color: #0C3E5F;
+    padding: 1.5%;
+}
+
+#subscribe-heading {
+    color: #D6DFE4;
+}
+
+#subscribe-paragraph {
+    color: #F9FAFB;
+}
+
+form {
+    padding: 1%;
+}
+
+#sign-up {
+    background-color: #1779BA;
+    color: #D7E8F3;
+    border-radius: 0%;
+}
+
+#email {
+    border-radius: 0%;
+}
